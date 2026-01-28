@@ -1,11 +1,19 @@
 #include <stdio.h>
 int main(void)
 {
-  // Uses of While loop to print my name 5 times
+  char name[20] = "";
+  printf("Give a word to print it x times: ");
+  scanf("%s", name);
+
+  int x = 0;
+  printf("How many times?: ");
+  scanf("%i", &x);
+
+  // Uses of While loop to print my name n times
   int count = 0;
-  while (count < 5)
+  while (count < x)
   {
-    printf("Arman\n");
+    printf("%s\n", name);
     count++;
   }
 }
