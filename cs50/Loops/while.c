@@ -9,7 +9,7 @@ int main(void)
   printf("How many times?: ");
   scanf("%i", &x);
 
-  // Uses of While loop to print my name n times
+  // Uses of While loop to print my name x times
   int count = 0;
   while (count < x)
   {
